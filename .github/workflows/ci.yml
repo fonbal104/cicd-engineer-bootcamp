@@ -17,4 +17,4 @@ jobs:
         run: 'echo "Repository: cicd-engineer-bootcamp"'
 
       - name: Show Date
-        run: date
+        run: invalid-command-123
