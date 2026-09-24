@@ -1,0 +1,20 @@
+name: My First CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello-ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Hello
+        run: echo "Hello Bud! Your first CI pipeline is running."
+
+      - name: Show Repository
+        run: echo "Repository: cicd-engineer-bootcamp"
+
+      - name: Show Date
+        run: date
