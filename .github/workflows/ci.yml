@@ -11,7 +11,7 @@ jobs:
         run: echo "Hello Bud! Your first CI pipeline is running."
 
       - name: Show Repository
-        run: echo "Repository: cicd-engineer-bootcamp"
+        run: 'echo "Repository: cicd-engineer-bootcamp"'
 
       - name: Show Date
         run: date
